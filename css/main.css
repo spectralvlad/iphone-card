@@ -1,0 +1,123 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #0a0a0a;
+  height: 100%;
+}
+
+.header {
+  background-color: #0a0a0a;
+  padding: 33px 0 32px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #717171;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.phone {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+.menu-item {
+  padding-right: 30px;
+}
+
+.logo-img {
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(25% - 10px);
+  margin: 5px;
+}
+
+.card-image {
+  width: 90%;
+  padding: 10px;
+}
+
+.card-content {
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.card-title {
+  margin-top: -5px;
+}
+
+.card-description {
+  margin-bottom: 16px;
+}
+
+.card-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  min-height: 100%;
+  flex: 1 1 auto;
+  padding: 40px 0 40px 0;
+}
+
+footer {
+  background-color: #0a0a0a;
+  width: 100%;
+  color: #717171;
+}
+
+ .p__footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+}
